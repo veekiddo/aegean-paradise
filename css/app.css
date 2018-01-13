@@ -1,0 +1,47 @@
+body {
+	background-color: #F2F4F4;
+	font-family: 'Oswald', sans-serif;
+	margin: 3em;
+}
+
+.header-nav-link {
+	font-weight: 600;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 10em;
+	}
+
+.container {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.subtitle {
+	background-color: #FFF;
+	width: 100%;
+}
+
+.gallery {
+	border: 30em;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 34;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 28;
+}
+
+p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20;
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 12;
+}
