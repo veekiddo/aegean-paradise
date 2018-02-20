@@ -4,25 +4,55 @@ body {
 }
 
 .header-top {
-	padding: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
 }
 
-.header-search {
+.switch-language {
 	float: left;
 	overflow: hidden;
+	top: 50%;
+	left: 30px;
+	padding-left: 1em;
+	color: #42070B;
+}
+
+.header-title {
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .social-media {
 	float: right;
 }
 
-.header-title {
-	width: 30%;
+.facebook {
+	color: #42070B;
+	content: "/f39e";
+}
+
+.instagram {
+	color: #42070B;
+}
+
+.whatsapp {
+	color: #42070B;
+}
+
+.email {
+	color: #42070B;
+}
+
+.header-nav {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	border-top: 1px solid #eee;
 }
 
 .header-nav-link {
-	font-weight: 600;
+	font-weight: 300;
 	font-family: 'Oswald', sans-serif;
+	font-size: 30;
 	color: #42070B;
 	}
 
@@ -30,17 +60,29 @@ body {
 	font-color: #E1ABAE;
 }
 
-.container {
-	text-align: center;
+.header-nav > dropdown-select a::after {
+	border-style: none;
+	background-image: none;
+	padding-right: 0em;
 }
 
-.subtitle {
-	background-color: #FFF;
-	padding: 2em
+.intro-title {
+	padding-top: 1.5em;
 }
 
-.gallery {
-	border: 30em;
+.info-photo {
+	width: 40%;
+	float: right;
+	padding-top: 8em;
+}
+
+.textbox {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 24px;
+	width: 60%;
+	padding: 2em;
+	float: left;
+
 }
 
 h1 {
@@ -50,9 +92,9 @@ h1 {
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 28;
-	color: #42070B;
+	font-family: 'PT Serif', sans-serif;
+	font-size: 30px;
+	color: #000;
 	text-align: center;
 }
 
@@ -62,10 +104,7 @@ h6 {
 }
 
 p {
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 20;
-	padding-left: 5em;
-	padding-right: 5em;
+
 }
 
 h4 {
